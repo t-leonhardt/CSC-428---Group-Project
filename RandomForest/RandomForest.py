@@ -1,4 +1,4 @@
-# CSC 428 - RandomForrest 
+# CSC 428 - RandomForest 
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import train_test_split
@@ -41,7 +41,7 @@ rf_precision = precision_score(y_test, rf_cv_pred, average='macro')
 rf_recall = recall_score(y_test, rf_cv_pred, average = 'macro')
 rf_f1 = f1_score(y_test, rf_cv_pred, average = 'macro')
 
-print("Decision Tree Metrics ")
+print("Random Forest Metrics ")
 print("Accuracy: ", rf_accuracy)
 print("Precision: ", rf_precision)
 print("Recall: ", rf_recall)
