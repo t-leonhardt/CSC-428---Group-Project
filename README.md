@@ -9,7 +9,7 @@
 
 ## Machine Learning models:
     K-Nearest Neighbor
-    Decision tree
+    Decision Tree
     Random Forest
     all models use:
         80/20 split
